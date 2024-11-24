@@ -1,0 +1,25 @@
+/* variables generales de estilo */
+:root { 
+    /* colores base */
+    --color-black: #000000;
+    --color-white: #ffffff; 
+
+    /* tonalidades de naranja */
+    --color-orange-lighter:#fbe9e7;
+    --color-orange-light:#ffccbc;
+    --color-orange-dark:#ffab91;
+    --color-orange-darker:#ff8a65;
+    --color-orange:#ff7043;
+}
+
+/* estilos generales */
+body {
+    /* margin: 20px 80px; */
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}

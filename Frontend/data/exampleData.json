@@ -1,0 +1,177 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"nombre": "josue lopez",
+			"correo": "ejempplo@correo.com",
+			"municipio": 3,
+			"ubicacion": "ubicacion 123",
+			"contrasenia": "contrasenia"
+		},
+		{
+			"id": 2,
+			"nombre": "manuel abarca",
+			"correo": "ejempplo2@correo.com",
+			"municipio": 5,
+			"ubicacion": "ubicacion 321",
+			"contrasenia": "contrasenia2"
+		},
+		{
+			"id": 3,
+			"nombre": "fede lobo",
+			"correo": "ejempplo3@correo.com",
+			"municipio": 8,
+			"ubicacion": "ubicacion 987",
+			"contrasenia": "contrasenia 45"
+		}
+		
+	],
+	"reportes": [
+		{
+			"id": 1,
+			"autor": 1,
+			"direccion": "direccion reporte 123, direccion secundaria, mas direccion",
+			"fecha": "5/11/2024",
+			"gravedad": 1,
+			"tipo": 1,
+			"municipio": 3 ,
+			"Gravedad": 1,
+			"Tipo": 2
+		},
+		{
+			"id": 2,
+			"autor": 2,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 2,
+			"Tipo": 1
+		},
+		{
+			"id": 3,
+			"autor": 3,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 3,
+			"Tipo": 3 
+		},
+		{
+			"id": 4,
+			"autor": 1,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 1,
+			"tipo": 1,
+			"municipio": 9,
+			"Gravedad": 1,
+			"Tipo": 1 
+		},
+		{
+			"id": 5,
+			"autor": 2,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 3,
+			"Tipo": 3 
+		},
+		{
+			"id": 6,
+			"autor": 2,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 1,
+			"Tipo": 1 
+		},
+		{
+			"id": 7,
+			"autor": 3,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 2,
+			"Tipo": 2 
+		},
+		{
+			"id": 8,
+			"autor": 1,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 3,
+			"Tipo": 3 
+		},
+		{
+			"id": 9,
+			"autor": 2,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 1,
+			"Tipo": 2 
+		},
+		{
+			"id": 10,
+			"autor": 3,
+			"direccion": "direccion de reporte, para prueba de renderizacion de datos",
+			"fecha": "6/11/2024",
+			"gravedad": 2,
+			"tipo": 2,
+			"municipio": 6,
+			"Gravedad": 3,
+			"Tipo": 1 
+		}
+	],
+	"Gravedad": [
+		{"1": "Leve"},
+		{"2": "Moderado"},
+		{"3": "Grave"}
+	],
+	"Tipo": [
+		{"1": "Bache"},
+		{"2": "Tragante"},
+		{"3": "Hundimiento"}
+	],
+	"Municipio": [
+		{"1": "Ahuachapan"},
+		{"2": "San Salvador"},
+		{"3": "La Libertad"},
+		{"4": "Chalatenango"},
+		{"5": "Cuscatlan"},
+		{"6": "Cabañas"},
+		{"7": "La Paz"},
+		{"8": "La Union"},
+		{"9": "Usulutan"},
+		{"10": "Sonsonate"},
+		{"11": "Santa Ana"},
+		{"12": "San Vicente"},
+		{"13": "San Miguel"},
+		{"14": "Morazan"}
+	],
+	"Estado": [
+		{"1": "Reportado"},
+		{"2": "Visitado"},
+		{"3": "Solucionado"}
+	], 
+	"Reporte": [
+		{"1": "Reportado"},
+		{"2": "Null"}
+	]
+	
+}

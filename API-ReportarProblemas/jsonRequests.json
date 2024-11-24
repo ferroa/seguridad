@@ -1,0 +1,97 @@
+.//-------------------------- CREAR USUARIO ------------------------- //localhost:5000/api/usuarios - POST
+{
+    "ID_usuario":"AcvdoFinal",
+    "nombre":"AcvdoFinal",
+    "correo":"AcvdoFinal",
+    "password":"AcvdoFinal",
+    "ID_municipio":1,
+    "ID_role":1
+}
+.
+//-------------------------- INICIAR SESION ------------------------- //localhost:5000/api/login - POST
+{
+    "idUsuario" : "AcvdoFinal",
+    "password" : "AcvdoFinal"
+}
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZFVzdWFyaW8iOiJBY3Zkb0ZpbmFsIiwibmFtZSI6IkFjdmRvRmluYWwiLCJyb2xlIjoidXN1YXJpbyIsImlhdCI6MTczMjMxMzA2NCwiZXhwIjoxNzMyMzk5NDY0fQ.moepbCglz_-Fkw-oq6JamMQ-qn2xw46WXIqraVAY0_8"
+}
+
+//-------------------------- CREAR PROBLEMA ------------------------- //localhost:5000/api/problemas - POST
+{
+    "ID_problema" : "BACHEFINAL",
+    "direccion" : "direccion",
+    "ID_gravedad" : "1",
+    "ID_tipo": "1",
+    "ID_municipio" : "1"
+}
+
+"Problema Creado exitosamente"
+
+//-------------------------- OBTENER PROBLEMAS ------------------------- //localhost:5000/api/problemas - GET
+[
+    {
+        "ID_problema": "BACHE",
+        "direccion": "direccion",
+        "fecha": "11/22/2024",
+        "ID_gravedad": "LEVE",
+        "ID_tipo": "BACHE",
+        "ID_Usuario": "Acvdo",
+        "ID_municipio": "SAN SALVADOR",
+        "ID_estado": "ACTIVO"
+    },
+]
+
+//-------------------------- MODIFICAR PROBLEMAS ------------------------- //localhost:5000/api/problemas - PUT
+{
+    "ID_problema" : "BACHEFINAL",
+    "direccion" : "direccion FINAL",
+    "ID_gravedad" : "2",
+    "ID_tipo": "2",
+    "ID_municipio" : "2"
+}
+
+"Problema actualizado exitosamente"
+
+//-------------------------- CAMBIAR ESTADO PROBLEMAS ------------------------- //localhost:5000/api/problemas - PATCH
+{
+    "ID_problema" : "BACHE",
+    "ID_estado" : "2"
+}
+
+"Estado actualizado exitosamente"
+
+
+
+//-------------------------- OBTENER TODOS LOS USUARIOS ------------------------- //localhost:5000/api/usuarios - GET
+[
+    {
+        "ID_Usuario": "AcvdoFinal",
+        "nombre": "AcvdoFinal",
+        "correo": "AcvdoFinal",
+        "Municipio": "SAN SALVADOR",
+        "Role": "usuario",
+        "fecha_creacion": "11/22/2024",
+        "denuncia_real": 0,
+        "total_Problemas": 1
+    }
+]
+
+//-------------------------- ELIMINAR USUARIOS ------------------------- localhost:5000/api/usuarios?id=admin - DELETE
+
+
+//----------------------- OBTENER TODOS LOS ADMINISTRADORES ---------------------- //localhost:5000/api/usuarios - GET
+
+[
+    {
+        "ID_Usuario": "admin",
+        "nombre": "admin",
+        "correo": "admin",
+        "Municipio": "SAN SALVADOR",
+        "Role": "admin",
+        "fecha_creacion": "11/22/2024",
+        "borrados": 0,
+        "user_borados": 0
+    }
+]
